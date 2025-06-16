@@ -74,8 +74,6 @@ class Datatypes
         double stockPrice = 987.65d;
         Console.WriteLine("stockPrice Value:" + stockPrice);
 
-
-
     }
 }
 

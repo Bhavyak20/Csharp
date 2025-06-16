@@ -11,7 +11,6 @@ class Datatypes_2
         Console.WriteLine("short maximum value " + short.MaxValue);
 
 
-
         //${________________________________________________}
         //String interpolation
         // Display the maximum and minimum values using string interpolation
