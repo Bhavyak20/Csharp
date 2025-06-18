@@ -126,6 +126,7 @@ class Strings
         string trail = string.Format("My first number is {0} and second number is {1}", first, second * second);
         Console.WriteLine(trail);
 
+
     }
 
 
