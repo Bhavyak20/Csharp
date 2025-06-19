@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Strings</StartupObject>
+    <StartupObject>DataTypeConversions</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_Basics.cs" />
-    <Compile Include="Datatypes-2.cs" />
-    <Compile Include="Datatypes.cs" />
+    <Compile Include="7.DataTypeConversions.cs" />
+    <Compile Include="3.Datatypes-2.cs" />
+    <Compile Include="2.Datatypes.cs" />
+    <Compile Include="6.operators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Strings.cs" />
-    <Compile Include="VarAndDynamic.cs" />
+    <Compile Include="5.Strings.cs" />
+    <Compile Include="4.VarAndDynamic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
