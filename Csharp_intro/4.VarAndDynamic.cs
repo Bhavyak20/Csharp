@@ -16,10 +16,12 @@ internal class VarAndDynamic
 
         var v_number = 12345;
         v_number = 6789;
+        v_number = 7654;
         Console.WriteLine("My number is " +v_number);
         Console.WriteLine($"Data type of v_number is {v_number.GetType()}");
 
         var v_temparature = 3.2f;
+        v_temparature = 2.6f;
         Console.WriteLine("Today temparature is " + v_temparature);
         Console.WriteLine("Data TYpe of V_temparature is " + v_temparature.GetType());
 
@@ -38,6 +40,7 @@ internal class VarAndDynamic
         dynamic d_price = 600000123;
         d_price = 99.6m;
         d_price = -65.9;
+        d_price = "hundred dollars";
         Console.WriteLine("Price value is " + d_price);
         Console.WriteLine("Data type of d_price is " + d_price.GetType());
     }

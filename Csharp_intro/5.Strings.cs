@@ -91,7 +91,7 @@ class Strings
 
         //string comparision
         string password = "World@123";
-        bool checkpassword = password.Equals("World@123"); //op:True
+        bool checkpassword = password.Equals("World@13"); //op:True
         /* bool checkpassword = password.Equals("World");//op false */
         Console.WriteLine(checkpassword);
 

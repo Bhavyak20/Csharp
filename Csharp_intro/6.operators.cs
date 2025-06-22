@@ -84,8 +84,8 @@
         string[] currencyItems = { "10$", "20$", "30$" };
         //string[] currencyItems = new string[] { "10$", "20$", "30$" };
         int noOfCurrencyItems = 3;
-
-
+        Console.WriteLine("price of a choclate is:" + currencyItems[0]);
+        
         ////string[3] currecnyItems = []
 
         bool isCurrnceyNotesEqaual = (currencyItems.Length == noOfCurrencyItems);
@@ -148,9 +148,9 @@
 
         //int id 
 
-        int? age = 30;
+        int age = 30;
 
-        Console.WriteLine("Age is ", age);
+        Console.WriteLine("Age is " +age);
 
         bool? nullbaleBool = null;
         Console.WriteLine("nullbaleBool is ", nullbaleBool);

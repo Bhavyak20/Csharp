@@ -67,7 +67,7 @@ internal class DataTypeConversions
         DateTime dateTime = DateTime.Now;
         Console.WriteLine(dateTime.ToString());
 
-        string[] strings;
+       
 
     }
 }

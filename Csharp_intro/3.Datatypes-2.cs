@@ -46,6 +46,9 @@ class Datatypes_2
 
         char initial = 'K';
         Console.WriteLine($"My surname is {initial} ");
+        Console.WriteLine("Value type of initial_string is:" + initial.GetType());
+        string initial_string= initial.ToString();
+        Console.WriteLine("Value type of initial_string is:" +initial_string.GetType());
 
         //string data type
 
