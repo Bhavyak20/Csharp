@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConditionalStatements</StartupObject>
+    <StartupObject>Methodswith_PARAMS</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,10 @@
     <Compile Include="9.Array.cs" />
     <Compile Include="10.ConditionalStatements.cs" />
     <Compile Include="LoopingSystem.cs" />
+    <Compile Include="Methods\Methods-1.cs" />
+    <Compile Include="Methods\Methods-ReturnTypes.cs" />
+    <Compile Include="Methods\Methodswith PARAMS.cs" />
+    <Compile Include="Methods\MethodWithParametersANDreturnTYpes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="5.Strings.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
