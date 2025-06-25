@@ -28,9 +28,11 @@ class ConditionalStatements
         Elseif();
         Else();
         Switchcase();
+        TernaryOprator();
     }
     static void Elseif()
     {
+       //example-1
         bool value = true;
         bool statement = false;
         if (statement)
@@ -42,8 +44,18 @@ class ConditionalStatements
             Console.WriteLine($"Value is true");
         }
 
+        //example-2
+        int oddnumber = 9;
+        if(oddnumber == 9)
+        {
+            Console.WriteLine($"{oddnumber} is odd number");
+        }
+        else if(oddnumber == 9)
+        {
+            Console.WriteLine($"{oddnumber} is largest one digit odd number");
+        }
 
-        double number = 58.9d;
+            double number = 58.9d;
         int convert = (int)number;
         Console.WriteLine(convert);
 
@@ -76,6 +88,21 @@ class ConditionalStatements
         else
         {
             Console.WriteLine("No statement to print");
+        }
+
+        //example-2
+        int even_number = 22;
+        if (even_number == 222) 
+        {
+            Console.WriteLine("22 is even number");
+        }
+        else if(even_number == 0)
+        {
+            Console.WriteLine("22 is double digit even number");
+        }
+        else
+        {
+            Console.WriteLine("no statements to prin about even numbert");
         }
     }
     static void Switchcase()
@@ -124,5 +151,21 @@ class ConditionalStatements
                 break;
         }
     }
+
+    static void TernaryOprator()
+    {
+        //ternary operator is also used to check condition here imp key values are ? and :
+        int num9 = 99;
+        string result = num9 > 9 ? "99 is greater than 9" : "99 is Not less than 9";
+        Console.WriteLine(result);
+
+
+        string myname = "Aditya";
+        string myname_result = myname == "Adtya" ? "Yes my name is Aditya" : "No my name is Adhvik";
+        Console.WriteLine(myname_result);
+
+    }
+
+
 }
 

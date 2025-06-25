@@ -52,7 +52,8 @@
     <Compile Include="2.Datatypes.cs" />
     <Compile Include="6.operators.cs" />
     <Compile Include="9.Array.cs" />
-    <Compile Include="ConditionalStatements.cs" />
+    <Compile Include="10.ConditionalStatements.cs" />
+    <Compile Include="LoopingSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="5.Strings.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
