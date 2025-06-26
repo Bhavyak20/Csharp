@@ -24,6 +24,10 @@
 
       int numofLocations=Method6(11);
         Console.WriteLine(numofLocations);//Method6
+
+        
+        string[] companies_names=Method7();
+        Console.WriteLine(companies_names);//method7
     }
     static string Method1(string companyNAME)
     {
@@ -59,5 +63,14 @@
         return Company_locations;
         
     }
+    static string[] Method7() 
+    {
+        string[] companies_names = {"TCS","DXC","ITC","CTS" };
+        foreach (string company in companies_names) {
+            Console.WriteLine(company);
+        }
+        return companies_names;
+    }
+
 }
 
