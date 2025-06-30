@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MethodWithParametersANDreturnTYpes</StartupObject>
+    <StartupObject>DebuggingPractice</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,8 @@
     <Compile Include="6.operators.cs" />
     <Compile Include="9.Array.cs" />
     <Compile Include="10.ConditionalStatements.cs" />
+    <Compile Include="Debugging\1.DebuggingIntro.cs" />
+    <Compile Include="Debugging\DebuggingPractice.cs" />
     <Compile Include="LoopingSystem.cs" />
     <Compile Include="Methods\Methods-1.cs" />
     <Compile Include="Methods\Methods-ReturnTypes.cs" />

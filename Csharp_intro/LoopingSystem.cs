@@ -88,7 +88,7 @@ class LoopingSystem
 
     static void Foreach()
     {
-        //for each Iterates through each element in a collection(eg:array,list)
+        //foreach Iterates through each element in a collection(eg:array,list)
         string[] family_names = { "Daughter,Son,Mother,Father" };
         foreach(string fam in family_names  ){
             Console.WriteLine($"In a family there are: {fam}");
