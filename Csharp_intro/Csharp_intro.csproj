@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DebuggingPractice</StartupObject>
+    <StartupObject>TaskList_3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,9 @@
     <Compile Include="5.Strings.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
     <Compile Include="8.ValueReference-DT.cs" />
+    <Compile Include="TaskList\TaskList%28Array%29-1.cs" />
+    <Compile Include="TaskList\TaskList%28DataTypes%29-2.cs" />
+    <Compile Include="TaskList\TaskList%28Methods%29-3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
