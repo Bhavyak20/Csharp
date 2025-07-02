@@ -28,7 +28,7 @@ class FieldsandMethods
 
         SchoolLocation(fields.schoolname,fields.schoollocation);
 
-        FieldsandMethods methods = new FieldsandMethods();
+        FieldsandMethods methods = new FieldsandMethods();//single statement
         {
             methods.studentname = "Vin";
             methods.studentgrade = "9th";
