@@ -5,6 +5,8 @@ class TaskList_3
     static void Main()
     {
         string EMP1Details = Employee1("Raj", 1234, "Developer");
+        string coursename = "csharp";
+        coursename = "JavaScript";
         Console.WriteLine(EMP1Details);
 
         int EMP2Details = Employee2(5678, "Harsh", 7, 1);
@@ -120,7 +122,7 @@ class TaskList_3
                 Console.WriteLine("only 3 cases are mentioned");
                 break;
         }
-        int languages = 3;
+        int languages = 0;
         switch (languages)
         {
             case (1):
@@ -137,6 +139,23 @@ class TaskList_3
                 break;
         }
 
+        string swtichname = "fan";
+        
+        switch (swtichname)
+        {
+            case "Mobile":
+                Console.WriteLine("Your are on the mobile switch");
+                break;
+            case "fan":
+                Console.WriteLine("Your are on the fan switch");
+                break;
+            case "cooler":
+                Console.WriteLine("Your are on the cooler switch");
+                break;
+            default:
+                Console.WriteLine("All switches are Off");
+                break;
+        }
 
     }
 
@@ -146,11 +165,11 @@ class TaskList_3
 
     static void Conditional()
     {
-        string carowner = "Adhvik";
-        string carname = "AUDI";
-        string carcolour = "White";
-        int carnumber = 1234;
-        string carmodel="High End";
+       const string carowner = "Adhvik";
+       const string carname = "AUDI";
+        const string carcolour = "White";
+        const int carnumber = 1234;
+        const string carmodel="High End";
 
         //if statement
 
@@ -186,7 +205,22 @@ class TaskList_3
             Console.WriteLine($"There is no details about {carname} car");
         }
 
+        switch (carcolour)
+        {
+            case (carname):
+                Console.WriteLine("name of the car is: " + carname);
+                break;
+            case (carowner):
+                Console.WriteLine("Owner of the car is " + carowner);
+                break;
+            case (carcolour):
+                Console.WriteLine($"{carowner} bought new {carname} which model is {carmodel}..........");
+                break;
+            default:
+                Console.WriteLine("aditya bought BENZ ");
+                break;
 
+        }
         switch (carcolour)
         {
             case "Red":
@@ -203,6 +237,9 @@ class TaskList_3
                 break;
 
         }
+
+
+        
     }
 }
 
