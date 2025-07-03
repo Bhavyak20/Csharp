@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldsandMethods</StartupObject>
+    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,8 @@
     <Compile Include="Class\1.Fields.cs" />
     <Compile Include="Class\Basics.cs" />
     <Compile Include="Class\2.Properties.cs" />
+    <Compile Include="Class\ConstReadonly.cs" />
+    <Compile Include="Class\Constructors.cs" />
     <Compile Include="Debugging\1.DebuggingIntro.cs" />
     <Compile Include="Debugging\DebuggingPractice.cs" />
     <Compile Include="LoopingSystem.cs" />
@@ -63,6 +65,11 @@
     <Compile Include="Methods\Methods-ReturnTypes.cs" />
     <Compile Include="Methods\Methodswith PARAMS.cs" />
     <Compile Include="Methods\MethodWithParametersANDreturnTYpes.cs" />
+    <Compile Include="Namespace\AllFiles.cs" />
+    <Compile Include="Namespace\ExcelFiles.cs" />
+    <Compile Include="Namespace\MainProgram.cs" />
+    <Compile Include="Namespace\PPTFiles.cs" />
+    <Compile Include="Namespace\WordFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="5.Strings.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
