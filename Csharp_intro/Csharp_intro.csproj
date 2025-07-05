@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
+    <StartupObject>StaticNonstaticMembers.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,7 @@
     <Compile Include="Class\2.Properties.cs" />
     <Compile Include="Class\ConstReadonly.cs" />
     <Compile Include="Class\Constructors.cs" />
+    <Compile Include="Class\Static.cs" />
     <Compile Include="Debugging\1.DebuggingIntro.cs" />
     <Compile Include="Debugging\DebuggingPractice.cs" />
     <Compile Include="LoopingSystem.cs" />
@@ -74,6 +75,9 @@
     <Compile Include="5.Strings.cs" />
     <Compile Include="4.VarAndDynamic.cs" />
     <Compile Include="8.ValueReference-DT.cs" />
+    <Compile Include="StaticVsNonstatic\Instantiate.cs" />
+    <Compile Include="StaticVsNonstatic\Instantiate_2.cs" />
+    <Compile Include="StaticVsNonstatic\Members.cs" />
     <Compile Include="TaskList\TaskList%28Array%29-1.cs" />
     <Compile Include="TaskList\TaskList%28DataTypes%29-2.cs" />
     <Compile Include="TaskList\TaskList%28Methods%29-3.cs" />
@@ -81,5 +85,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
